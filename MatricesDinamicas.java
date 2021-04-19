@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class MatricesDinamicas{
     public static void main(String[] args){
-        int filas=0, columnas=0, contador=1;
+        int filas=0;
+        int columnas=0;
+        int contador=1;
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("¿Cuántas filas deseas?");
@@ -19,6 +21,7 @@ public class MatricesDinamicas{
             }
             System.out.println("");
         }
+        teclado.close();
         
     }
 }
