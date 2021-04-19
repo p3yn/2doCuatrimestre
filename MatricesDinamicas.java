@@ -5,9 +5,9 @@ public class MatricesDinamicas{
         int filas=0, columnas=0, contador=1;
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("¿Cuántas filas desdeas?");
+        System.out.println("¿Cuántas filas deseas?");
         filas = teclado.nextInt();
-        System.out.println("¿Cuántas columnas desdeas?");
+        System.out.println("¿Cuántas columnas deseas?");
         columnas = teclado.nextInt();
 
         int numeros [][] = new int [filas][columnas];
