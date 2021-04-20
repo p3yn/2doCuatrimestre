@@ -5,7 +5,7 @@ public class Formulario extends JFrame{
 
     public Formulario(){    
     setLayout (null);
-    label1 = new JLabel ("La Geekipedia de Ivan");
+    label1 = new JLabel ("Curso de Java ");
     label1.setBounds(150, -120, 200, 300);
     add(label1);
     }
