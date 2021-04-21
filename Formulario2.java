@@ -1,5 +1,4 @@
-import javax.swing.JFrame;
-import javax.swng.*;
+import javax.swing.*;
 
 public class Formulario2 extends JFrame{
     
